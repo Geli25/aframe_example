@@ -5,6 +5,7 @@
 [Also see 3D model in AR](https://geli25.github.io/aframe_example/ar-example.html)
 
 
+&nbsp;
 
 **Aframe Libraries included in this example:**
 
@@ -23,6 +24,7 @@
 [Aframe-physics-extras](https://github.com/wmurphyrd/aframe-physics-extras):SuperHands Physics Integration
 
 
+&nbsp;
 
 *Resources:*
 
