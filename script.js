@@ -1,6 +1,7 @@
 //apparently you don't need a querySelector :/
 
 window.addEventListener("load",()=>{
+    //all HTML element ids are saved as variables automatically so no need to reference it
     var scene = document.querySelector("a-scene");
     var soundisPlaying = false;
 
