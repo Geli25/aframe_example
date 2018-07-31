@@ -2,9 +2,8 @@
 
 window.addEventListener("load",()=>{
     var scene = document.querySelector("a-scene");
-    var ball=scene.querySelector("#playBall");
     var soundisPlaying = false;
-    
+
     //hands setup
     AFRAME.registerComponent('capture-mouse', {
         init: function () {
@@ -42,7 +41,7 @@ window.addEventListener("load",()=>{
         }
         //reset playCube position with backspace
         if (keyCode===8){
-            ball.body.position.set(10,0.2,-0.5);
+            playBall.body.position.set(10,0.2,-0.5);
         }
     })
 
