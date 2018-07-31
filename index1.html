@@ -1,15 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Web AR Experiment</title>
 <script src="https://rawgit.com/aframevr/aframe/master/dist/aframe-master.min.js"></script>
 <script src="https://rawgit.com/google-ar/three.ar.js/master/dist/three.ar.js"></script>
 <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v4.1.2/dist/aframe-extras.min.js"></script>
 <script src="https://rawgit.com/chenzlabs/aframe-ar/master/dist/aframe-ar.js"></script>
 
+    <!-- Prevent touch causing flicker on iOS. -->
+    <style>
+        * {
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+    </style>
+</head>
+
+<body>
+    
 <a-scene ar>
+
     <a-assets>
-       <a-asset-item id="hedgehog" src="./assets/hedge/scene.gltf"></a-asset-item>
+        <a-asset-item id="hedgehog" src="./assets/hedge/scene.gltf"></a-asset-item>
     </a-assets>
 
     <a-entity id="hedge" gltf-model="#hedgehog" sound="src: url(./assets/music.wav);loop:true; autoplay: false" shadow="cast: false"
         animation-mixer scale="0.003 0.003 0.003" position="0 0.2 -4">
         <a-animation attribute="rotation" dur="10000" fill="forwards" easing="linear" to="0 360 0" repeat="indefinite" />
     </a-entity>
-<a-scene>
+</a-scene>
+
+</body>
+
+</html>
