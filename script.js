@@ -4,7 +4,7 @@ window.addEventListener("load",()=>{
     var scene = document.querySelector("a-scene");
     var ball=scene.querySelector("#playBall");
     var soundisPlaying = false;
-
+    
     //hands setup
     AFRAME.registerComponent('capture-mouse', {
         init: function () {
