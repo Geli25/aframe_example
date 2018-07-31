@@ -2,7 +2,7 @@
 
 [Go see the code in action!](https://geli25.github.io/aframe_example/)
 
-[Also see 3D model in AR](https://geli25.github.io/aframe_example/ar-example.html)
+[Also see 3D model in AR(Need mobile device with ARKit/ARCore)](https://geli25.github.io/aframe_example/ar-example.html)
 
 
 &nbsp;
