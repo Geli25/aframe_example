@@ -1,7 +1,8 @@
 # Aframe Example 
 
 [Go see the code in action!](https://geli25.github.io/aframe_example/)
-**Press space to play music attached to the model**
+
+* Press space to play music attached to the model
 
 * WASD to move, go to the right for interactive cubes
 
