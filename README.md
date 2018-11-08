@@ -5,7 +5,7 @@
 
 * WASD to move, go to the right for interactive cubes
 
-* Press backspace to respawn the ball if it disappears**
+* Press backspace to respawn the ball if it disappears
 
 [Also see 3D model in AR(Need mobile device with ARKit/ARCore)](https://geli25.github.io/aframe_example/ar-example.html)
 
